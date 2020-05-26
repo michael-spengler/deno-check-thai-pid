@@ -9,9 +9,9 @@ Check thai personal ID
 ````javascript
 import checkThaiPid from 'https://deno.land/x/deno_check_thai_pid/mod.ts'
 
-const personalID = 9999999999999 //string or number
+const personalID = "9999999999999" //string or number
 
-let outStr = CheckThaiPID(personalID) ? 'Personal ID is correct' : "Personal ID is incorrect"
+let outStr = checkThaiPid(personalID) ? 'Personal ID is correct' : "Personal ID is incorrect"
 
 console.log(outStr)
 ````
