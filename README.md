@@ -7,7 +7,7 @@ Check thai personal ID
 # Usage
 
 ````javascript
-import checkThaiPid from 'https://deno.land/x/deno-check-thai-pid/mod.ts'
+import checkThaiPid from 'https://deno.land/x/deno_check_thai_pid/mod.ts'
 
 const personalID = 9999999999999 //string or number
 
